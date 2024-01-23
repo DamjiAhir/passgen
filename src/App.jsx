@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect, useRef } from "react";
 import "./App.css";
 
-function App() {
+export function App() {
   const [lenth, setLenth] = useState(8);
   const [number, setNumber] = useState(false);
   const [charcter, setCharecter] = useState(false);
@@ -89,4 +89,4 @@ function App() {
   );
 }
 
-export default App;
+
